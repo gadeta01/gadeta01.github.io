@@ -1,5 +1,5 @@
 body {
-  background-color: #222224;
+  background-color: #eeeeee;
 }
 header {
   color: blue;
@@ -11,7 +11,7 @@ header {
   color: orange;
 }
 .low {
-  color: gray;
+  color: darkslategray;
 }
 .done {
   text-decoration:line-through;
