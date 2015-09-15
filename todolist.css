@@ -1,6 +1,9 @@
 body {
   background-color: purple;
 }
+header {
+  background-color: blue;
+}
 .high {
   color: red;
 }
