@@ -2,3 +2,17 @@ section.high>ul {
   background-color: red;
   color: white
   }
+  
+section.medium>ul {
+  background-color: orange;
+  color: white;
+}
+
+section.low>ul {
+  background-color: gray;
+}
+
+section.done>ul {
+  background-color: black;
+  color: #00ffff;
+}
