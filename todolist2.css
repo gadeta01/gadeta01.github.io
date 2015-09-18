@@ -16,3 +16,7 @@ section.done {
   background-color: black;
   color: #00ffff;
 }
+
+section {
+  border: 5px solid black;
+}
