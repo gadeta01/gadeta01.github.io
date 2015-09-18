@@ -1,18 +1,18 @@
-.high ul {
+.high {
   background-color: red;
   color: white;
 }
   
-section.medium ul {
+section.medium {
   background-color: orange;
   color: white;
 }
 
-section.low ul {
+section.low {
   background-color: gray;
 }
 
-section.done ul {
+section.done {
   background-color: black;
   color: #00ffff;
 }
