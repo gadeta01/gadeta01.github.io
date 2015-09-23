@@ -1,3 +1,15 @@
 nav {
    position: fixed;
+   height: 50px;
+   width: 100%;
    }
+   
+nav li {
+   display: inline;
+}
+
+section {
+   margin-top: 50px;
+   width: 50%;
+   float: left;
+}
