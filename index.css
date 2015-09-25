@@ -28,7 +28,7 @@ section {
 
 .left {
    background-color: rgb(173, 173, 133);
-   margin-right: 5px;
+   border-right: 5px;
 }
 
 .right {
