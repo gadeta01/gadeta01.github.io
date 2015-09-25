@@ -1,7 +1,7 @@
 header {
    position: fixed;
    background-color: rgb(173, 173, 133);
-   height: 50px;
+   height: 75px;
 }
 nav {
    position: fixed;
@@ -16,7 +16,7 @@ nav li {
 }
 
 section {
-   margin-top: 50px;
+   margin-top: 125px;
    width: 50%;
    float: left;
    height: 500px;
