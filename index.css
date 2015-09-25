@@ -2,6 +2,7 @@ nav {
    position: fixed;
    height: 50px;
    width: 100%;
+   background-color: rgb(204, 51, 255);
    }
    
 nav li {
@@ -12,4 +13,10 @@ section {
    margin-top: 50px;
    width: 50%;
    float: left;
+}
+
+footer {
+   width: 100%;
+   height: 50px;
+   clear: both;
 }
