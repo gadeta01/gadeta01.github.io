@@ -1,4 +1,5 @@
 header {
+   width: 100%;
    position: fixed;
    background-color: rgb(173, 173, 133);
    height: 75px;
