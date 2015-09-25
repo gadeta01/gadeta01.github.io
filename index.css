@@ -17,11 +17,11 @@ nav {
    
 nav li {
    display: inline;
+   color: ;
 }
 
 nav li:hover {
    background-color: rgb(173,173,133);
-   font-size: 28pt;
 }
 
 section {
