@@ -19,6 +19,10 @@ nav li {
    display: inline;
 }
 
+nav li:hover {
+   background-color: rgb(173,173,133);
+}
+
 section {
    margin-top: 125px;
    width: 50%;
