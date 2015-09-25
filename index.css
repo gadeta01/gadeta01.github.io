@@ -1,8 +1,11 @@
 header {
+   position: fixed;
    background-color: rgb(173, 173, 133);
+   height: 50px;
 }
 nav {
    position: fixed;
+   top: 50px;
    height: 50px;
    width: 100%;
    background-color: rgb(204, 51, 255);
