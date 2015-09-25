@@ -1,3 +1,6 @@
+header {
+   background-color: rgb(173, 173, 133);
+}
 nav {
    position: fixed;
    height: 50px;
@@ -19,4 +22,5 @@ footer {
    width: 100%;
    height: 50px;
    clear: both;
+   background-color: rgb(204, 51, 255);
 }
