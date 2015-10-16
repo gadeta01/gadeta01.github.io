@@ -1,2 +1,2 @@
-makePage = function() {
+addItem = function() {
 }
