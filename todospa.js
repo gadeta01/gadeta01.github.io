@@ -13,4 +13,11 @@ addItem = function() {
   newitem.appendChild(tasknode);
   list.appendChild(newitem);
   alert("The Button was clicked");
+  box.onclick = "slash();";
+  alert(box.onClick);
 }
+
+slash = function() {
+  
+}
+
