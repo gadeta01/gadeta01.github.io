@@ -1,4 +1,22 @@
-#list {
-  width = 70%; 
-  height = 400px;
+body {
+  background-color: #eeeeee;
+}
+header {
+  color: blue;
+}
+.high {
+  color: red;
+}
+.medium {
+  color: orange;
+}
+.low {
+  color: darkslategray;
+}
+.done {
+  text-decoration:line-through;
+}
+ul#list {
+  width: "70%";
+  height: 200px;
 }
