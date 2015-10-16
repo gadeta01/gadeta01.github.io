@@ -1,10 +1,12 @@
 addItem = function() {
-  //var list, newitem, selected, classnew; 
-  //list = document.querySelector("#lista");
-  //list.type = none;
-  //newitem = document.createElement("li");
-  //classnew = document.querySelector("#priority").value;
-  //newitem.class = classnew;
+  var list, newitem, selected, classnew; 
+  list = document.querySelector("#lista");
+  alert(list);
+  newitem = document.createElement("li");
+  alert(newitem);
+  classnew = document.querySelector("#priority").value;
+  newitem.class = classnew;
+  alert(newitem.class);
   //box = document.createElement("input");
   //box.type = "checkbox"; 
   //taskdata = document.querySelector("#task").value;
