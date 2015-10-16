@@ -8,10 +8,10 @@ addItem = function() {
   box.type = "checkbox"; 
   alert(box);
   taskdata = document.querySelector("#task").value;
-  alert(taskdata);
-  //tasknode = document.createTextNode(taskdata);
-  //list.appendChild(newitem);
-  //newitem.appendChild(box);
-  //newitem.appendChild(tasknode);
+  tasknode = document.createTextNode(taskdata);
+  alert(tasknode);
+  newitem.appendChild(box);
+  newitem.appendChild(tasknode);
+  list.appendChild(newitem);
   alert("The Button was clicked");
 }
