@@ -1,7 +1,7 @@
 addItem = function() {
   var list, newitem, selected, classnew; 
   list = document.querySelector("#lista");
-  list.style = none; 
+  list.type = none; 
   alert("Style Change");
   newitem = document.createElement("li");
   classnew = document.querySelector("#priority").value;
