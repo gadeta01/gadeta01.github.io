@@ -11,7 +11,7 @@ header {
   color: orange;
 }
 .low {
-  color: darkslategray;
+  color: gray;
 }
 .done {
   text-decoration:line-through;
