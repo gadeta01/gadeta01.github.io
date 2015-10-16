@@ -11,7 +11,6 @@ addItem = function() {
   newitem.appendChild(box);
   newitem.appendChild(tasknode);
   list.appendChild(newitem);
-  alert("The Button was clicked");
 }
 
 
