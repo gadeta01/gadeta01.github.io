@@ -17,6 +17,7 @@ header {
   text-decoration:line-through;
 }
 ul#list {
-  width: "70%";
-  height: "200px";
+  width: 70%;
+  height: 200px;
+  background-color: purple;
 }
