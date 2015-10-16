@@ -3,7 +3,8 @@ addItem = function() {
   list = document.querySelector("#lista");
   newitem = document.createElement("li");
   classnew = document.querySelector("#priority").value;
-  newitem.class = classnew;
+  newitem.className = classnew;
+  alert(newitem.className);
   box = document.createElement("input");
   box.type = "checkbox"; 
   taskdata = document.querySelector("#task").value;
