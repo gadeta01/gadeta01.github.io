@@ -4,7 +4,6 @@ addItem = function() {
   newitem = document.createElement("li");
   classnew = document.querySelector("#priority").value;
   newitem.className = classnew;
-  alert(newitem.className);
   box = document.createElement("input");
   box.type = "checkbox"; 
   taskdata = document.querySelector("#task").value;
@@ -13,11 +12,6 @@ addItem = function() {
   newitem.appendChild(tasknode);
   list.appendChild(newitem);
   alert("The Button was clicked");
-  box.onclick = "slash();";
-  alert(box.onClick);
 }
 
-slash = function() {
-  
-}
 
