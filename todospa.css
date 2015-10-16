@@ -4,6 +4,9 @@ body {
 header {
   color: blue;
 }
+li {
+  
+}
 .High {
   color: red;
 }
@@ -16,8 +19,9 @@ header {
 .done {
   text-decoration:line-through;
 }
-ul#lista {
+#lista {
   width: 70%;
   height: 200px;
   background-color: #5c738b;
+  overflow: auto;
 }
