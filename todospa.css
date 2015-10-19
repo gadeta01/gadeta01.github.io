@@ -1,7 +1,6 @@
 body {
   background-color: #eeeeee;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 header {
   color: blue;
