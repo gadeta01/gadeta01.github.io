@@ -16,9 +16,7 @@ addItem = function() {
 
 slash = function() {
   if (this.checked) {
-  alert(this.parentNode); 
   this.parentNode.classList.add("done");
-  alert("Hello, who am I?");
   }
   else {
     this.parentNode.classList.remove("done");
