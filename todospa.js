@@ -15,6 +15,8 @@ addItem = function() {
 }
 
 slash = function() {
+  alert(this.parentNode); 
+  this.parentNode.addClass("done");
   alert("Hello, who am I?");
 }
 
