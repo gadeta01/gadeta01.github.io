@@ -1,5 +1,5 @@
 body {
-  background-color: #197575;
+  background-color: #eeeeee;
   margin: auto;
 }
 header {
@@ -23,6 +23,6 @@ li {
 #lista {
   width: 70%;
   height: 200px;
-  background-color: #5c738b;
+  background-color: #4D9494;
   overflow: auto;
 }
