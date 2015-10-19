@@ -20,7 +20,6 @@ slash = function() {
   }
   else {
     this.parentNode.classList.remove("done");
-    alert(this.parentNode.classList)
   }
 }
 
