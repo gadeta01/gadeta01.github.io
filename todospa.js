@@ -1,5 +1,5 @@
 window.onload = function() {
-    restoreList("#lista", slash);
+    restoreList("lista", slash);
     
 }
 
@@ -17,7 +17,7 @@ addItem = function() {
   newitem.appendChild(box);
   newitem.appendChild(tasknode);
   list.appendChild(newitem);
-  localSave("#lista");
+  localSave("lista");
 }
 
 slash = function() {
