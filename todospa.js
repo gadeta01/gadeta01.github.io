@@ -3,7 +3,7 @@ window.onload = function() {
 }
 
 addItem = function() {
-  var list, newitem, selected, classnew; 
+  var list, newitem, selected, classnew, taskdata; 
   list = document.querySelector("#lista");
   newitem = document.createElement("li");
   classnew = document.querySelector("#priority").value;
