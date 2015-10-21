@@ -4,6 +4,7 @@ body {
   text-align: center;
   width: 100%;
 }
+
 header {
   color: blue;
 }
@@ -27,4 +28,6 @@ li {
   height: 200px;
   background-color: #4D9494;
   overflow: auto;
+  text-align: center;
+  margin: auto;
 }
