@@ -1,5 +1,5 @@
 window.onload = function() {
-    restoreList("lista", "slash");
+    restoreList("lista", slash);
     
 }
 
