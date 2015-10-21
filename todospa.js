@@ -12,6 +12,7 @@ addItem = function() {
   newitem.appendChild(box);
   newitem.appendChild(tasknode);
   list.appendChild(newitem);
+  localSave("#lista");
 }
 
 slash = function() {
