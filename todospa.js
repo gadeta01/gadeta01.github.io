@@ -1,5 +1,6 @@
 window.onload = function() {
     restoreList("#lista", slash);
+    
 }
 
 addItem = function() {
