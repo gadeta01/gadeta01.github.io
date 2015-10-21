@@ -1,3 +1,7 @@
+window.onload = function() {
+    restoreList("#lista", slash);
+}
+
 addItem = function() {
   var list, newitem, selected, classnew; 
   list = document.querySelector("#lista");
