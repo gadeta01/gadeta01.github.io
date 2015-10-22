@@ -23,9 +23,11 @@ addItem = function() {
 slash = function() {
   if (this.checked) {
   this.parentNode.classList.add("done");
+  localSave("lista");
   }
   else {
     this.parentNode.classList.remove("done");
+    localSave("lista");
   }
 }
 
