@@ -1,41 +1,317 @@
-<html> 
-<head>
-  <link rel="stylesheet" href="style/index.css" type="text/css">
-  <title>Taylor</title>
-</head>
-<body>
-<header>
-  <h1>Taylor's Page</h1>
-</header>
-<nav> 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="hobby.html">Interest</a></li>
-  <li><a href="gallery.html">Gallery</a></li>
-</ul>
-</nav>
-<section class=left>
-  <p><img width=200 src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1489290_10202596789420282_5307638068881540649_n.jpg?oh=316da7d144a82dd20323f8447f28dd38&oe=565D52ED"/></p>
-  <h2>About Taylor</h2>
-  <p>
-    <ul>
-      <li>Sophomore in College</li>
-      <li>Math and Computer Science Double Major</li>
-      <li>From Minnesota</li>
-    </ul>
-  </p>
-</section>
-<section class=right>
-<h2>Assignments</h2> 
-<ul> 
-<li><a href=todolist.html>To do List 1</a></li>
-<li><a href=todolist2.html>To do List 2</a></li>
-<li><a href=todolist3.html>To do List 3</a></li>
-<li><a href=todospa.html>Final To do</li>
-</ul>
-</section>
-<footer>
-  Made by Taylor
-</footer>
-</body> 
-</html> 
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal Webpage">
+    <meta name="author" content="Taylor Gades">
+
+    <title>Taylor Gades</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/more.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Taylor
+            <span class="text-primary">Gades</span>
+          </h1>
+          <div class="subheading mb-5">Minneapolis, MN ·
+            <a href="mailto:taylor.gades@gmail.com">taylor.gades@gmail.com</a>
+          </div>
+          <p class="mb-5">Recent graduate of Computer Science, Mathematics, and Spanish. </p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/taylorgades">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/gadeta01">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Application Engineer Intern</h3>
+              <div class="subheading mb-3">Thrivent Financial</div>
+              <ul class="experience_ul">
+                <li class="experience_li">Develop Java based web applications.</li>
+                <li class="experience_li">Utilize Spring Tools Suite.</li>
+                <li class="experience_li">Communicate with business analysts and actuaries to build applications suited for members' needs.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2016 - May 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Student Manager</h3>
+              <div class="subheading mb-3">Luther College Technology Help Desk</div>
+              <ul class="experience_ul">
+                <li class="experience_li">Guide student technicians to provide the best service for students, faculty, and staff at Luther College.</li>
+                <li class="experience_li">Build schedule for 25 student technicians. </li>
+                <li class="experience_li">Train new student technicians. </li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2016 - May 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Student Technician</h3>
+              <div class="subheading mb-3">Luther College Technology Help Desk</div>
+              <ul class="experience_ul">
+                <li class="experience_li">Guide students, faculty, and staff in technology needs.</li>
+                <li class="experience_li">Troubleshoot software and hardware issues on both Mac and PC.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2015 - May 2016</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Projects Coming soon</h3>
+              <p>Nordic shift, abuelas, flikr api, and cs330 final</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Luther College</h3>
+              <div class="subheading mb-3">Bachelor of Science</div>
+              <div>Majors: Computer Science and Math</div>
+              <div>Minor: Spanish</div>
+              <p>GPA: 3.98</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2014 - May 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Torchbearer's International</h3>
+              <div class="subheading mb-3">Spanish and Bible</div>
+              <div>Gap year experience </div>
+              <div>Volunteer in nursing home</div>
+              <div>Organize and participate in two mission trips.</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2013 - June 2014</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-python" title="python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-java" title="java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-github" title="github"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5" title="html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3" title="css"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript" title="javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-react" title="reactjs"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap" title="bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery" title="jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-postgresql" title="postgresql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-npm" title="npm"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-eclipse" title="eclipse"></i>
+            </li>
+            <li class="list-inline-item">
+                <i class="devicons devicons-heroku" title="heroku"></i>
+              </li>
+          </ul>
+
+          <div class="subheading mb-3">Course Work</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Database Management Systems</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Networking</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Information Assurance &amp; Security </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Internet Programming</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Programming Languages</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Object Oriented Programming</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Computational Models</li>
+            
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a web developer, I enjoy spending time outdoors during Minnesota summers. 
+            Every summer I strive to kayak at a different lake each week.</p>
+          <!--<p class="mb-0">Additionally, I enjoy doing an occassional craft project and cooking new foods.</p> -->
+        </div>
+      </section>
+
+      <!--<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Achievements</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-arrow-circle-left text-warning"></i>
+              Phi Beta Kappa Honor Society</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Mobile Web Specialist - Google Certification</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+          </ul>
+        </div>
+      </section> -->
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
